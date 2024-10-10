@@ -20,7 +20,7 @@
 <h4 align="justify">La subclase Medico.java hereda de la superclase Persona.java y se crea con la finalidad de poder instanciar los distintos médicos del sistema. Al heredar de la superclase persona, hereda los tres atributos que comentamos anteriormente, además de contar con dos nuevos:</br></br>
   - numColegiado de tipo int.</br>
   - especialidad de tipo Especialidad, que es un enumerado que puede tomar los valores: DESCONOCIDA, CARDIOLOGIA, RADIOLOGIA, TRAUMATOLOGIA, ALERGOLOGIA, ROLOGIA, GINECOLOGIA y OFTALMOLOGIA.</br></br>
-  Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getter y setters para los dos atributos propios de la csubclase, un método toString que devuelve la información de cada médico por pantalla, una función listarMedicos, que saca por pantalla la información de todos los médicos que tenga la lista de médicos que nos pasan como parámetro, una función encontrarMedico, que usa otra como auxiliar, que nos permite devolver un médico con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo y una función anhadirMedico que nos permite añadir un nuevo médico al sistema pidiéndole al usuario sus datos. 
+  Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getters y setters para los dos atributos propios de la subclase, un método toString que devuelve la información de cada médico por pantalla, una función listarMedicos, que saca por pantalla la información de todos los médicos que tenga la lista de médicos que nos pasan como parámetro, una función encontrarMedico, que usa otra como auxiliar, que nos permite devolver un médico con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo y una función anhadirMedico que nos permite añadir un nuevo médico al sistema pidiéndole al usuario sus datos. 
 </h4>
 
 <h3>Enfermero.java
@@ -28,9 +28,15 @@
 <h4 align="justify">La subclase Enfermero.java hereda de la superclase Persona.java y se crea con la finalidad de poder instanciar los distintos enfermeros del sistema. Al heredar de la superclase persona, hereda los tres atributos que comentamos anteriormente, además de contar con dos nuevos:</br></br>
   - IDEnfermero de tipo int.</br>
   - nivelExperiencia de tipo NivelExperiencia, que es un enumerado que puede tomar los valores: DESCONOCIDA, BAJO, MEDIO y ALTO.</br></br>
-  Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getter y setters para los dos atributos propios de la csubclase, un método toString que devuelve la información de cada enfermero por pantalla, una función listarEnfermeros, que saca por pantalla la información de todos los médicos que tenga la lista de médicos que nos pasan como parámetro, una función encontrarEnfermero, que usa otra como auxiliar, que nos permite devolver un enfermero con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo y una función anhadirEnfermero que nos permite añadir un nuevo enfermero al sistema pidiéndole al usuario sus datos. 
+  Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getters y setters para los dos atributos propios de la subclase, un método toString que devuelve la información de cada enfermero por pantalla, una función listarEnfermeros, que saca por pantalla la información de todos los enfermeros que tenga la lista de enfermeros que nos pasan como parámetro, una función encontrarEnfermero, que usa otra como auxiliar, que nos permite devolver un enfermero con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo y una función anhadirEnfermero que nos permite añadir un nuevo enfermero al sistema pidiéndole al usuario sus datos. 
 </h4>
 
-
+<h3>Paciente.java
+</h3>
+<h4 align="justify">La subclase Paceinte.java hereda de la superclase Persona.java y se crea con la finalidad de poder instanciar los distintos pacientes del sistema. Al heredar de la superclase persona, hereda los tres atributos que comentamos anteriormente, además de contar con uno nuevo:</br></br>
+  - numHistorialPaciente de tipo int.</br></br>
+  Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a este atributos y a los otros tres que hereda de la clase persona, con métodos getter y setter para el atributo propio de la subclase, un método toString que devuelve la información de cada paciente por pantalla, una función listarPacientes, que saca por pantalla la información de todos los pacientes que tenga la lista de pacientes que nos pasan como parámetro y una función anhadirPaciente que nos permite añadir un nuevo enfermero al sistema pidiéndole al usuario sus datos. </br>
+  NOTA: no se implementa la funcionalidad eliminarPaciente porque a pesar de que a un paciente se le de el alta, este quedará guardado en el sistema como histórico, por lo que no existe una función buscarPaciente análoga a la de la clase Medico o Enfermero.
+</h4>
 
 
