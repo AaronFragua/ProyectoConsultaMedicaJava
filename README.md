@@ -15,7 +15,6 @@
   Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos tres atributos, un método getter por cada atributo, para devolverlos, y un método toString que devuelve la información de cada persona en forma de String. 
 </h4>
 
-</h2>
 <h3>Medico.java
 </h3>
 <h4 align="justify">La subclase Medico.java hereda de la superclase Persona.java y se crea con la finalidad de poder instanciar los distintos médicos del sistema. Al heredar de la superclase persona, hereda los tres atributos que comentamos anteriormente, además de contar con dos nuevos:</br></br>
@@ -24,7 +23,6 @@
   Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getter y setters para los dos atributos propios de la csubclase, un método toString que devuelve la información de cada médico por pantalla, una función listarMedicos, que saca por pantalla la información de todos los médicos que tenga la lista de médicos que nos pasan como parámetro, una función encontrarMedico, que usa otra como auxiliar, que nos permite devolver un médico con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo y una función anhadirMedico que nos permite añadir un nuevo médico al sistema pidiéndole al usuario sus datos. 
 </h4>
 
-</h2>
 <h3>Enfermero.java
 </h3>
 <h4 align="justify">La subclase Enfermero.java hereda de la superclase Persona.java y se crea con la finalidad de poder instanciar los distintos enfermeros del sistema. Al heredar de la superclase persona, hereda los tres atributos que comentamos anteriormente, además de contar con dos nuevos:</br></br>
@@ -32,5 +30,7 @@
   - nivelExperiencia de tipo NivelExperiencia, que es un enumerado que puede tomar los valores: DESCONOCIDA, BAJO, MEDIO y ALTO.</br></br>
   Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getter y setters para los dos atributos propios de la csubclase, un método toString que devuelve la información de cada enfermero por pantalla, una función listarEnfermeros, que saca por pantalla la información de todos los médicos que tenga la lista de médicos que nos pasan como parámetro, una función encontrarEnfermero, que usa otra como auxiliar, que nos permite devolver un enfermero con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo y una función anhadirEnfermero que nos permite añadir un nuevo enfermero al sistema pidiéndole al usuario sus datos. 
 </h4>
+
+
 
 
