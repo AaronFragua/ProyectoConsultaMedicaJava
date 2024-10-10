@@ -20,7 +20,7 @@
 </h3>
 <h4 align="justify">La subclase Medico.java hereda de la superclase Persona.java y se crea con la finalidad de poder instanciar los distintos médicos del sistema. Al heredas de la superclase persona, hereda los tres atributos que comentamos anteriormente, además de contar con dos nuevos:</br></br>
   - numColegiado de tipo int.</br>
-  - especialidad de tipo Especialidad, que es un enumerado que puede tomar los valores: DESCONOCIDA, CARDIOLOGIA, RADIOLOGIA, TRAUMATOLOGIA, ALERGOLOGIA, ROLOGIA, GINECOLOGIA y OFTALMOLOGIA,</br>
+  - especialidad de tipo Especialidad, que es un enumerado que puede tomar los valores: DESCONOCIDA, CARDIOLOGIA, RADIOLOGIA, TRAUMATOLOGIA, ALERGOLOGIA, ROLOGIA, GINECOLOGIA y OFTALMOLOGIA</br></br>
   Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a esos dos atributos y a los otros tres que hereda de la clase persona, con métodos getter y setters para los dos atributos propios de la csubclase, un método toString que devuelve la información de cada médico en forma de String, una función listarMedicos, que saca por pantalla la información de todos los médicos que tenga la lista de médicos que nos pasan como parámetro y una función anhadirMedico, que usa otra como auxiliar, que nos permite devolver un médico con el DNI que nos pasa el usuario para devolverlo a la clase principal y poder eliminarlo. 
 </h4>
 
