@@ -1,4 +1,4 @@
-<h1<b>>ProyectoConsultaMedicaJava</b></h1>
+<h1><b>ProyectoConsultaMedicaJava</b></h1>
 
 <h4 align="justify">Este es un pequeño proyecto realizado íntegramente en Java. Para ello, creamos una serie de clases que implementan el concepto de herencia, lo que nos ayuda con los atributos de todas las personas involucradas en el sistema. 
 </h4>
