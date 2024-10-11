@@ -39,4 +39,16 @@
   NOTA: no se implementa la funcionalidad eliminarPaciente porque a pesar de que a un paciente se le de el alta, este quedará guardado en el sistema como histórico, por lo que no existe una función buscarPaciente análoga a la de la clase Medico o Enfermero.
 </h4>
 
+<h3>Cita.java
+</h3>
+<h4 align="justify">La clase Cita.java se crea con la finalidad de poder instanciar las distintas citas del sistema. Cuenta con seis atributos:</br></br>
+  - IDCita de tipo int.</br>
+  - medico de tipo Medico.</br>
+  - paciente de tipo Paciente.</br>
+  - enfermero de tipo Enfermero.</br>
+  - fecha de tipo LocalDate.</br>
+  - motivo de tipo String.</br></br>
+  Además, cuenta con un constructor que recibe como parametros los valores que pasaremos a estos atributos, con métodos getter y setter para el atributo IDCita, un método toString que devuelve la información de cada cita por pantalla, una función listarCitas, que saca por pantalla la información de todos las citas que tenga la lista de citas que nos pasan como parámetro y una función encontrarCita, que usa otra como auxiliar, que nos permite devolver una cita con el ID que nos pasa el usuario para devolverla a la clase principal y poder eliminarla  
+</h4>
+
 
